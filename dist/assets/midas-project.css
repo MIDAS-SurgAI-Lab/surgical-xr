@@ -868,12 +868,13 @@ html:has(article.build-article--rail) { scroll-padding-top: 112px; }
  .portrait .youtube-frame { max-width: 270px; }
  .article-body > section > p.source-line { font-size: 13px; }
 }
+.article-roadmap { --max: 1120px; }
+.article-roadmap .site-footer { max-width: none; }
 .roadmap-page {
   --ink: #243b50;
   --muted: #607487;
   --accent: #315f82;
   --line: #dce5ed;
-  --max: 1120px;
   color: var(--ink);
   background: #fbfcfd;
   padding-bottom: 72px;
