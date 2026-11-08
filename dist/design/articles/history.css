@@ -8,6 +8,7 @@ html:has(.article-history) { scroll-padding-top: 0; }
 }
 .article-history :is(a, button, summary):focus-visible { outline-color: #5686b2; outline-offset: 4px; }
 .article-history .site-header { background: rgb(248 250 252 / 96%); border-color: var(--line); }
+.article-history .site-footer { max-width: none; }
 .article-history .compact-page-heading { padding-block: 64px 40px; align-items: center; gap: 32px; }
 .article-history .page-hero h1 { font-size: clamp(38px, 4.8vw, 62px); letter-spacing: -.055em; }
 .article-history .page-hero .eyebrow { margin-bottom: 16px; font-size: 10px; letter-spacing: .13em; }
