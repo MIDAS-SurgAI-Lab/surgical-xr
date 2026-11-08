@@ -93,7 +93,6 @@ html:has(.article-history) { scroll-padding-top: 0; }
 .article-history .history-media img { border-radius: 8px; background: #eaf0f6; }
 .article-history .history-media figcaption { font-size: 11px; margin-top: 8px; }
 .article-history .history-list > li[data-history-current] .history-record { background: #edf3f8; }
-.article-history .history-monthly-link { padding-block: 28px 60px; margin: 0; }
 @media (hover: hover) {
   .article-history .history-article > a[href]:hover { border-color: #9fb7cc; box-shadow: 0 8px 24px rgb(28 54 78 / 6%); transform: translateY(-3px); }
   .article-history .history-article > a[href]:hover .cover-arrow { transform: translate(2px, -2px); }
