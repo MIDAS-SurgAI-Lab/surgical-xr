@@ -2,6 +2,7 @@
   "pages": [
     "index.html",
     "history.html",
+    "vision-pro.html",
     "roadmap.html",
     "endoscope-series.html",
     "endoscope.html",
@@ -19,6 +20,7 @@
     "home-design.html",
     "home-design-b.html",
     "home-design-light.html",
+    "en/vision-pro.html",
     "en/endoscope-series.html",
     "en/endoscope.html",
     "en/endoscope-cv190.html",
@@ -51,6 +53,7 @@
       "en/orchestra.html",
       "en/roadmap.html",
       "en/robopose.html",
+      "en/vision-pro.html",
       "en/vitals-build.html",
       "endoscope-cv190-full-hd.html",
       "endoscope-cv190.html",
@@ -66,6 +69,7 @@
       "orchestra.html",
       "roadmap.html",
       "robopose.html",
+      "vision-pro.html",
       "vitals-build.html"
     ]
   }

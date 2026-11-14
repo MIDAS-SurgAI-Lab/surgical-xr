@@ -156,3 +156,20 @@ html:has(.article-history) { scroll-padding-top: 0; }
   .history-record::details-content { content-visibility: visible; }
   .article-history .history-entry { display: block; }
 }
+
+/* Approved Vision Pro story card layout. */
+.article-history .history-features{grid-template-columns:repeat(3,minmax(0,1fr));scroll-margin-top:104px}
+.article-history .history-article>a{height:100%}
+.article-history .history-article h2{font-size:clamp(23px,2vw,28px)}
+.article-history .vision-pro-story .article-cover img{object-position:65% 50%}
+@media(max-width:1000px){
+  .article-history .history-features{grid-template-columns:1fr}
+  .article-history .history-article>a{display:grid;grid-template-columns:38% minmax(0,1fr)}
+  .article-history .history-article .article-cover{height:100%}
+  .article-history .history-article .article-cover img{height:100%;aspect-ratio:auto}
+}
+
+@media(max-width:460px){
+  .article-history .history-article>a{display:flex}
+  .article-history .history-article .article-cover img{height:auto;aspect-ratio:1.9}
+}
